@@ -23,6 +23,8 @@ a{
     color: white;
     text-decoration: none;
 }
+p{
+    font-size: 20px}
 li{
     color: white;
 }
@@ -43,9 +45,7 @@ h1{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 5px 5px 5px #ec9eaa;
-    width: 400px
-    
-
+    width: 400px;
 }
 .conteudo{
     float: left;
@@ -57,4 +57,11 @@ h1{
     box-shadow: 5px 5px 5px black;
     width: 400px;
     border: 2px solid black;
+}
+li{
+    font-size:18px;
+}
+li :hover{
+    color:rgb(0, 173, 181);
+    background-color: black;
 }
