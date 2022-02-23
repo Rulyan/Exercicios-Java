@@ -1,0 +1,60 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, rgb(34, 40, 49), rgb(57, 62, 70) );
+    width: 90%;
+    margin: 0 auto;
+}
+.navegacao{
+    overflow:hidden; /*ajusta o texto no box e esconde as barras de rolagem*/
+}
+.navegacao a{
+    float:right;
+    display: block;
+    color: rgb(238, 238, 238)    ;
+    text-decoration: none;
+    text-align:right;
+    padding:10px 10px;
+}
+.navegacao a:hover{
+    color:rgb(0, 173, 181);
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    color: white;
+}
+h1{
+    background-color: rgb(0, 173, 181);
+    color:rgb(238, 238, 238);
+    text-decoration:dashed;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+}
+.principal{
+    float: left;
+    margin: 15px 2px 25px 2px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ec9eaa;
+    width: 400px
+    
+
+}
+.conteudo{
+    float: left;
+    padding: 30px;
+    margin: 15px 4px 30px 4px;
+    border-radius: 5px;
+    background-color: #00ADB5;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    width: 400px;
+    border: 2px solid black;
+}
