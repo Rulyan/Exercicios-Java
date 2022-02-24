@@ -1,5 +1,8 @@
-var numero; resposta = 5; i; mais = 10; menos = 0
-
+var numero 
+var resposta = 5 
+var i 
+var mais = 10 
+var menos = 0
 var jogador = prompt("digite seu nome")
 
 for (i = 0; i < 4; i++) {
